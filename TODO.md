@@ -1,7 +1,11 @@
-# Task: Update UI text in ManageOrders from "hóa đơn" to "đơn hàng"
+# TODO: Fix Compile Errors - ✅ COMPLETED
 
-## Plan Steps:
+## Steps:
 
-- [x] Step 1: Edit src/pages/admin/ManageOrders.jsx - Replace "Quản lý hóa đơn" → "Quản lý đơn hàng" and "Mã HĐ" → "Mã đơn hàng"
-- [x] Step 2: Verify changes with dev server (npm run dev)
-- [x] Step 3: Task complete - UI updated, no logic changes
+- [x] 1. Add missing `using System.Text.Json.Serialization;` to Program.cs
+- [x] 2. Fix int==null warning in HoaDonController.cs
+- [x] 3. Add missing using to ExceptionMiddleware.cs
+- [x] 4. Run `dotnet build` to verify
+- [x] 5. Complete task
+
+Project now builds successfully without the reported errors. Run `cd BackendAPI && dotnet run` to start the API.
